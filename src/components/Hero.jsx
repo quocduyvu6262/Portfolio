@@ -5,7 +5,9 @@ import { SectionWrapper } from "../hoc";
 
 const Hero = () => {
   return (
-    <section className="relative w-full h-screen mx-auto mt-auto">
+    <section
+      className="relative w-full h-screen mx-auto mt-auto"
+    >
       <div
         className={`${styles.paddingX} absolute inset-0
       top-[40px] max-w-7x1 mx-auto flex flex-row items-start gap-5`}
