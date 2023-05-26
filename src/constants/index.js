@@ -244,7 +244,7 @@ const projects = [
   {
     name: "Room Occupation Estimation",
     description:
-      "This project aims to develop a machine-learning model that accurately estimates and predicts the number of people in a room using a dataset collected at different times throughout 4 days from various types of sensors, including those that detect temperature, light, sound, CO2, and PIR, respectively. It’s contributional in solving the task of monitoring room occupancy in real-time.",
+      "A machine-learning model that accurately estimates and predicts the number of people in a room using a dataset collected at different times throughout 4 days from various types of sensors.",
     tags: [
       {
         name: "machine learning",

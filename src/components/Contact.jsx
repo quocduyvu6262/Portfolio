@@ -17,8 +17,8 @@ const Contact = () => {
     //   </motion.div>
     // </>
     <div>
-      <p className={`${styles.sectionSubText} `}>My contact</p>
-      <h2 className={`${styles.sectionHeadText}`}>Social.</h2>
+      {/* <p className={`${styles.sectionSubText} `}>My contact</p>
+      <h2 className={`${styles.sectionHeadText}`}>Social.</h2> */}
 
       <div className="flex flex-row flex-wrap justify-center gap-11 mt-10">
         {socials.map((social) => (
