@@ -1,7 +1,7 @@
 import { BrowserRouter } from "react-router-dom"
 
-import {About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas}
- from "./components"
+import {About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas} from "./components"
+import { herobg } from "./assets";
 
 const App = () => {
   return (
@@ -9,7 +9,7 @@ const App = () => {
       <div className="relative z-0 bg-primary">
         <div
           className="bg-cover bg-no-repeat bg-center"
-          style={{ backgroundImage: "url('./src/assets/herobg.png')" }}
+          style={{ backgroundImage: `url(./${herobg})` }}
         >
           <Navbar />
           <Hero />
