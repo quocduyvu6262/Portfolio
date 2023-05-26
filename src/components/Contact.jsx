@@ -26,7 +26,7 @@ const Contact = () => {
                key={social.name}
                onClick={() => window.open(social.link, "_blank")}
           >
-            <img src={social.icon}/>
+            <img src={`./${social.icon}`}/>
           </div>
         ))}
       </div>
