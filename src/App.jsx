@@ -9,7 +9,7 @@ const App = () => {
       <div className="relative z-0 bg-primary">
         <div
           className="bg-cover bg-no-repeat bg-center"
-          style={{ backgroundImage: "url('./assets/herobg.png')" }}
+          style={{ backgroundImage: "url('./src/assets/herobg.png')" }}
         >
           <Navbar />
           <Hero />
