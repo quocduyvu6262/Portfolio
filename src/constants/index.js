@@ -33,6 +33,8 @@ import {
   tripguide,
   threejs,
   notetakingapp,
+  foodrecommender,
+  raytracing,
   roomestimation
 } from "../assets";
 
@@ -240,6 +242,44 @@ const projects = [
     ],
     image: notetakingapp,
     source_code_link: "https://github.com/cse110-fa22-group5/cse110-fa22-group5",
+  },
+  {
+    name: "Ray Tracer",
+    description:
+      "Developed a basic ray tracer in C++ to simulate the interaction of light with objects in a virtual scene. Defined the scene, generated rays for each pixel in the image, and computed ray-object intersections to determine the color of each pixel.",
+    tags: [
+      {
+        name: "C++",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "OO Design",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Data Structures",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: raytracing,
+    source_code_link: "https://github.com/quocduyvu6262/RayTracer",
+  },
+  {
+    name: "Food Recommender System",
+    description:
+      "A recommender system that predicts the user's rating on a specific food recipe. Developed the Logistic Regression and Bag of Words model using user's review text and Natural Language Processings.",
+    tags: [
+      {
+        name: "machine learning",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "python",
+        color: "green-text-gradient",
+      },
+    ],
+    image: foodrecommender,
+    source_code_link: "https://docs.google.com/document/u/1/d/e/2PACX-1vTjr0JQBOxLO6BSF9dp_BA-t1CXNPaO-325MKb1rQtpIMFYgKge76dBD62CnfuiPg/pub",
   },
   {
     name: "Room Occupation Estimation",

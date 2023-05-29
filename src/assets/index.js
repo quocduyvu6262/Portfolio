@@ -39,7 +39,11 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import notetakingapp from "./notetakingapp.png"
 import roomestimation from "./roomestimation.png"
+import foodrecommender from "./foodrecommender.png"
+import raytracing from "./raytracing.png"
+
 import herobg from "./herobg.png"
+
 
 export {
   logo,
@@ -80,5 +84,7 @@ export {
   tripguide,
   notetakingapp,
   roomestimation,
+  foodrecommender,
+  raytracing,
   herobg
 };
