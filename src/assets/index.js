@@ -41,6 +41,7 @@ import notetakingapp from "./notetakingapp.png"
 import roomestimation from "./roomestimation.png"
 import foodrecommender from "./foodrecommender.png"
 import raytracing from "./raytracing.png"
+import ioschatapp from './ioschatapp.png';
 
 import herobg from "./herobg.png"
 
@@ -86,5 +87,6 @@ export {
   roomestimation,
   foodrecommender,
   raytracing,
-  herobg
+  herobg,
+  ioschatapp
 };

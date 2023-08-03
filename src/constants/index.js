@@ -35,7 +35,8 @@ import {
   notetakingapp,
   foodrecommender,
   raytracing,
-  roomestimation
+  roomestimation,
+  ioschatapp
 } from "../assets";
 
 export const navLinks = [
@@ -46,6 +47,10 @@ export const navLinks = [
   {
     id: "work",
     title: "Experience",
+  },
+  {
+    id: "resume",
+    title: "Resume",
   },
   {
     id: "contact",
@@ -222,6 +227,31 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "iOS Chat App",
+    description:
+      "A messaging application that allows users to connect with others and start chatting.",
+    tags: [
+      {
+        name: "SwiftUI",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Node.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "WebSocket",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "PostgreSQL",
+        color: "green-text-gradient",
+      },
+    ],
+    image: ioschatapp,
+    source_code_link: "https://github.com/quocduyvu6262/ChatAppIOS",
+  },
   {
     name: "Note Taking App",
     description:
